@@ -17,7 +17,7 @@ $ npm install inversify-hooks reflect-metadata --save
 The inversify-hooks type definitions are included in the inversify-hooks npm package.
 
 ## How to use
-```
+```Typescript
 import 'reflect-metadata'; // Import only once
 import { container, useInject } from 'inversify-hooks';
 
@@ -37,7 +37,7 @@ function ExampleComponent() {
 ```
 
 ## You can also use any ID that you prefer
-```
+```Typescript
 container.addSingleton<IService1>(Service1, 'MyService1');
 
 function ExampleComponent() {
